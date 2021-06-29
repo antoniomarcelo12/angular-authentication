@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: #424242;
     
 }
 
@@ -27,16 +27,18 @@ a i {
     color: #FFF;
 }
 
-.sidenav {
-    background-color: #424242;
-}
-
-
-mat-sidenav-content {
-    padding: 20px;
-    /* margin-left: 200px; */
-}
 
 .active .icon {
     color: #FF9801;
+}
+
+.picture {
+    height: 40px;
+    justify-content: center;
+    margin: 5px 0 0 9px;
+    padding: 0;
+}
+
+.picture img {
+    height: 100%;
 }
