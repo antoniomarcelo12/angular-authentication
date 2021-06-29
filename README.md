@@ -1,5 +1,28 @@
 # ProjetoAuth
 
+# Run instructions:
+-Clone this repository with
+
+git clone https://github.com/antoniomarcelo12/angular-authentication.git
+
+-Inside the "angular-authentication" folder, install the Angular command line interface with
+
+npm i @angular/cli
+
+-For the last, just run 
+
+npm start
+
+## OR
+
+Just visit 
+
+https://angular-authentication.vercel.app
+
+
+___________________________________________________________________________________________
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
 ## Development server
