@@ -19,7 +19,7 @@ Just visit
 
 https://angular-authentication.vercel.app
 
-
+-Decidi utilizar o Angular por ser o framework com melhor curva de aprendizado pra mim.
 ___________________________________________________________________________________________
 
 
