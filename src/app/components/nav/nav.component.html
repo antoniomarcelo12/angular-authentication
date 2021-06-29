@@ -1,0 +1,88 @@
+<mat-sidenav-container class='container mat-elevation-z5'>
+    <mat-sidenav class='sidenav' mode='side' opened fixedInViewport='true'>
+        
+        
+        <mat-nav-list class='nav-list'>
+            
+            <div class="topo">
+                <a mat-list-item class='logo' routerLink='/'>
+                    <img src="assets/logo.png" alt="">
+                
+                </a>
+            </div>
+            <a mat-list-item routerLink='/business' routerLinkActive='active'>
+                <i class="material-icons icon">
+                    business
+                </i>
+                
+            </a>
+
+            <a mat-list-item routerLink='/people' routerLinkActive='active'>
+                <i class="material-icons icon" >
+                    people
+                </i>
+                
+            </a>
+
+            <a mat-list-item routerLink='/settings' routerLinkActive='active'>
+                <i class="material-icons icon">
+                    settings
+                </i>
+                
+            </a>
+
+            <a mat-list-item routerLink='/visao-geral' routerLinkActive='active'>
+                <i class="material-icons icon">
+                    visibility
+                </i>
+                
+            </a>
+
+            <a mat-list-item routerLink='/dashboard' routerLinkActive='active'>
+                <i class="material-icons icon">
+                    dashboard
+                </i>
+                
+            </a>
+
+            <a mat-list-item routerLink='/vpn-lock' routerLinkActive='active'>
+                <i class="material-icons icon">
+                    vpn_lock
+                </i>
+                
+            </a>
+
+            <a mat-list-item routerLink='/assignment' routerLinkActive='active'>
+                <i class="material-icons icon">
+                    assignment
+                </i>
+                
+            </a>
+
+            
+            <a mat-list-item routerLink='/theaters' routerLinkActive='active'>
+                <i class="material-icons icon">
+                    theaters
+                </i>
+                
+            </a>
+            
+            <a mat-list-item routerLink='/mobile-friendly' routerLinkActive='active'>
+                <i class="material-icons icon">
+                    mobile_friendly
+                </i>
+            </a>
+                
+            <a mat-list-item routerLink='/network-check' routerLinkActive='active'>
+                <i class="material-icons icon">
+                    network_check
+                </i>
+                
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

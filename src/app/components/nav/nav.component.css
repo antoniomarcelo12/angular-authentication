@@ -1,0 +1,42 @@
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.logo {
+    margin-top: -8px;
+    background-color: #212121;
+}
+
+.logo:hover {
+    background-color: #212121;
+}
+
+.sidenav a img {
+    height: 50%;
+    margin: 0;
+    padding: 0;
+
+}
+
+a i {
+    color: #FFF;
+}
+
+.sidenav {
+    background-color: #424242;
+}
+
+
+mat-sidenav-content {
+    padding: 20px;
+    /* margin-left: 200px; */
+}
+
+.active .icon {
+    color: #FF9801;
+}

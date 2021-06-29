@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+form {
+    margin-top: 50px;
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.backgroud {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 120px;
+}
+
+.backgroud>img {
+    position: absolute;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+
+.btn {
+    background-color: #7957D5;
+    transition: 500ms;
+}
+
+.btn:disabled {
+    background-color: rgb(216, 10, 10);
+    color: white;
+    transition: 500ms;
+}
+
+label {
+    font-family: 'Roboto';
+    /* font-weight: 200; */
+}
+
+input, textarea {
+    border: 1px solid #000000;
+    background: #cccccc;
+    /* width: 150px; */
+    /* height: 100px; */
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+input:hover, textarea:hover {
+    background: #ffffff;
+    border: 1px solid #990000;
+}
